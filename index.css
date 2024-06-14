@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+li,a{
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color:#7c654c;
+    color: #ffffff;
+}
+.menu{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.menu i:hover{
+    transition: all 0.3s ease 0s;
+    color: #2424ee;
+    font-size: 45px;
+
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0 30px;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #2424ee;
+    font-size: 25px;
+}
+
+.intro {
+    background-color: #eca058;
+    color: #ffffff;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 0 0;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+.description{
+    text-align: center;
+    font-size: 30px;
+    padding: 5px 0;
+    color: #458f45;
+}
+
+.advert{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+    color: #458f45;
+}
+
+.menupick h3{
+    text-align: center;
+    padding: 30px;
+    background-color: #7c654c;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ 
+.card{
+    background-color: #f0f0f0;
+    width:600px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.card-image{
+    height: 500px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.meal1{
+    background-image:url('images/french2.jpg') ;
+}
+
+.meal2{
+    background-image:url('images/pizza.jpg') ;
+}
+.meal3{
+    background-image:url('images/salad.jpg') ;
+}
+
+.card h3 {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card p{
+    padding: 20px;
+    font-size: 20px;
+}
+
+.card a{
+    background-color: #000;
+    color: #ffffff;
+    padding:20px;
+    display: block;
+    text-align: center;
+    margin:10px 20px;
+
+}
+.card:hover{
+    color: #f0f0f0;
+    background-color: #000;
+    width: 607px
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #7c654c;
+    color: #ffffff;
+    font-size: 30px;
+    padding: 30px 10%;
+    
+}
+.footer-links li{
+    display: inline-block;
+    padding:0 30px;
+}
+
+.footer-links i:hover{
+    color: #2424ee;
+    font-size: 45px;
+    transition: all 0.3s ease 0s;
+}
